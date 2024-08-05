@@ -1,0 +1,35 @@
+Basic:
+Retrieve the total number of orders placed. - 64050 orders
+Calculate the total revenue generated from pizza sales.- $2,453,580.1525
+Identify the highest-priced pizza. - The Greek Pizza, #35.95, XXL
+Identify the most common pizza size ordered.- L (55578)
+
+List the top 5 most ordered pizza types along with their quantities.
+PIZZA_TYPE,NO_OF_ORDERS,QTY_OF_PIZZAS
+classic_dlx,7248,7359
+bbq_ckn,7116,7296
+hawaiian,7110,7266
+pepperoni,7107,7254
+thai_ckn,6945,7113
+
+
+Intermediate:
+Join the necessary tables to find the total quantity of each pizza category ordered.
+Classic-44664 | Veggie-34947 | Supreme-35961 | Chicken-33150
+
+Determine the distribution of orders by hour of the day.
+12 : 60984,13 : 57717,18 : 48753,17 : 46899,19 : 39654,16 : 38151,14 : 32517,20 : 31806,15 : 28944,11 : 24552,21 : 22905,22 : 12474,23 : 612,10 : 162,9 : 36
+
+Join relevant tables to find the category-wise distribution of pizzas.
+Classic : 8 | Supreme : 9 | Veggie : 9 | Chicken : 6
+
+Group the orders by date and calculate the average number of pizzas ordered per day. - 1222.9 PIZZAS ordered per day avg
+
+Determine the top 3 most ordered pizza types based on revenue.
+thai_ckn | 130302.75 , bbq_ckn | 128304 , cali_ckn | 124228.5
+
+
+Advanced:
+Calculate the percentage contribution of each pizza type to total revenue. DONE	
+Analyze the cumulative revenue generated over time. DONE 
+Determine the top 3 most ordered pizza types based on revenue for each pizza category. DONE
